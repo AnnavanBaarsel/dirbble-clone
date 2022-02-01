@@ -1,0 +1,206 @@
+.top-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.nav-link-and-icon {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  height: 40px;
+}
+
+.dribbble-icon {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.nav-links {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(99, 98, 98);
+}
+.nav-sign-in {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  align-items: baseline;
+}
+a {
+  padding: 0px 10px 0px 10px;
+  text-decoration: none;
+  color: darkgrey;
+}
+.nav-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ea4c89;
+  color: white;
+  font-size: 17px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  align-items: baseline;
+}
+/*below intoduction bar*/
+.intro-and-img {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 72px;
+  align-items: center;
+  background: rgb(240, 239, 239);
+}
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  height: 240px;
+  width: 624px;
+}
+h1 {
+  font-size: 48px;
+}
+p {
+  font-size: 16px;
+}
+.signup-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ea4c89;
+  color: white;
+  font-size: 17px;
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  align-items: baseline;
+}
+.woman-img {
+  width: 500px;
+  height: 400px;
+}
+/*navagation bar under introduction bar*/
+.second-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 32px 72px 0px;
+}
+.second-links {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.popular-btn {
+  background-color: white;
+  border: solid grey 1px;
+  border-radius: 7px;
+  padding: 10px 35px 10px 16px;
+}
+.filter-btn {
+  background-color: white;
+  border: solid grey 1px;
+  border-radius: 7px;
+  padding: 10px 35px 10px 16px;
+}
+/*Grid images*/
+.grid-imgs {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  padding: 25px 72px;
+}
+.images {
+  height: 270px;
+}
+.image-in-grid {
+  height: 240px;
+  width: 321px;
+  align-content: center;
+  border-radius: 20px;
+}
+.names {
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 8px;
+}
+.profile-img {
+  height: 20px;
+  width: 24px;
+  border-radius: 50%;
+}
+.likes {
+  margin-left: 130px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.views {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+.bottom-log-in {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bottom-btn {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ea4c89;
+  color: rgb(250, 236, 236);
+  font-size: 17px;
+  padding: 10px 60px;
+  border-radius: 10px;
+  border: none;
+  justify-content: center;
+  text-align: center;
+}
+.bottom-btn a {
+  color: white;
+}
+.bottom-sign-in {
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ea4c89;
+  font-size: 17px;
+  text-align: center;
+  margin: 15px 0px;
+  padding: 0px 60px;
+}
+
+/* Footer*/
+
+.footer {
+  padding: 60px 72px 15px;
+  display: flex;
+  width: 1400px;
+  margin: 0;
+  flex-direction: row;
+}
+.tag-line {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 20px 0;
+}
+.link-header {
+  font-family: Arial, Helvetica, sans-serif;
+  flex-direction: auto;
+  width: 144px;
+  padding-right: 40px;
+  align-content: center;
+}
+.footer a {
+  padding: 7px 0;
+  display: inline-block;
+}
+.links-flex-box {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+.dribbble-icon {
+  width: 300px;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4 {
+  color: #ea4c89;
+}
+.under-footer-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 44px 0;
+}
